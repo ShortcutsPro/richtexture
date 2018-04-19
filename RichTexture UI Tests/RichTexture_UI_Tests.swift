@@ -1,6 +1,6 @@
 //
-//  Textor_UI_Tests.swift
-//  Textor UI Tests
+//  RichTexture_UI_Tests.swift
+//  RichTexture UI Tests
 //
 //  Created by Louis D'hauwe on 10/03/2018.
 //  Copyright © 2018 Silver Fox. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Textor_UI_Tests: XCTestCase {
+class RichTexture_UI_Tests: XCTestCase {
         
     override func setUp() {
         super.setUp()

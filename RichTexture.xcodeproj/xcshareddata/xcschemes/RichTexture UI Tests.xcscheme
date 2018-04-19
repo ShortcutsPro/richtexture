@@ -17,9 +17,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BED3CABB20544197007968FF"
-               BuildableName = "Textor UI Tests.xctest"
-               BlueprintName = "Textor UI Tests"
-               ReferencedContainer = "container:Textor.xcodeproj">
+               BuildableName = "RichTexture UI Tests.xctest"
+               BlueprintName = "RichTexture UI Tests"
+               ReferencedContainer = "container:RichTexture.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -27,9 +27,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BE000C211FF9451F00D06B91"
-            BuildableName = "Textor.app"
-            BlueprintName = "Textor"
-            ReferencedContainer = "container:Textor.xcodeproj">
+            BuildableName = "RichTexture.app"
+            BlueprintName = "RichTexture"
+            ReferencedContainer = "container:RichTexture.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -50,9 +50,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BE000C211FF9451F00D06B91"
-            BuildableName = "Textor.app"
-            BlueprintName = "Textor"
-            ReferencedContainer = "container:Textor.xcodeproj">
+            BuildableName = "RichTexture.app"
+            BlueprintName = "RichTexture"
+            ReferencedContainer = "container:RichTexture.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -68,9 +68,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BE000C211FF9451F00D06B91"
-            BuildableName = "Textor.app"
-            BlueprintName = "Textor"
-            ReferencedContainer = "container:Textor.xcodeproj">
+            BuildableName = "RichTexture.app"
+            BlueprintName = "RichTexture"
+            ReferencedContainer = "container:RichTexture.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

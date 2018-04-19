@@ -6,7 +6,7 @@ use_frameworks!
 # ignore all warnings from all pods
 inhibit_all_warnings!
 
-target 'Textor' do
+target 'RichTexture' do
 	pod 'SimulatorStatusMagic', '~> 1.9', :configurations => ['Debug']
 
 end

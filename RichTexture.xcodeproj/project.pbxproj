@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A3FD70D1F2610010DF9625A /* Pods_Textor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E53ED7F36F7596674975E47 /* Pods_Textor.framework */; };
+		7094396206C46597DD6D1682 /* Pods_RichTexture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5089AC987CD33C8E945A30 /* Pods_RichTexture.framework */; };
 		BE000C261FF9451F00D06B91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE000C251FF9451F00D06B91 /* AppDelegate.swift */; };
 		BE000C281FF9451F00D06B91 /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE000C271FF9451F00D06B91 /* DocumentBrowserViewController.swift */; };
 		BE000C2A1FF9451F00D06B91 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE000C291FF9451F00D06B91 /* DocumentViewController.swift */; };
@@ -27,7 +27,7 @@
 		BECE41042038DD45004889F0 /* UIColor+Named.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECE41032038DD45004889F0 /* UIColor+Named.swift */; };
 		BED3CAB420543936007968FF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED3CAB320543936007968FF /* SettingsViewController.swift */; };
 		BED3CAB72054405A007968FF /* Think different.txt in Resources */ = {isa = PBXBuildFile; fileRef = BED3CAB62054405A007968FF /* Think different.txt */; };
-		BED3CABF20544197007968FF /* Textor_UI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED3CABE20544197007968FF /* Textor_UI_Tests.swift */; };
+		BED3CABF20544197007968FF /* RichTexture_UI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED3CABE20544197007968FF /* RichTexture_UI_Tests.swift */; };
 		BED3CAC7205441A1007968FF /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED3CAC6205441A0007968FF /* SnapshotHelper.swift */; };
 		BED6707D201BB1B200D04AD5 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED6707C201BB1B200D04AD5 /* KeyboardObserver.swift */; };
 		BEDDAB152058745300AC9396 /* Notification+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDDAB142058745300AC9396 /* Notification+Name.swift */; };
@@ -48,9 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E53ED7F36F7596674975E47 /* Pods_Textor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Textor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		42FA62BBBE3A16CF4D515238 /* Pods-Textor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Textor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Textor/Pods-Textor.debug.xcconfig"; sourceTree = "<group>"; };
-		BE000C221FF9451F00D06B91 /* Textor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Textor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5089AC987CD33C8E945A30 /* Pods_RichTexture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RichTexture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C4EDBB2088C86900C872BA /* RichTexture.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RichTexture.entitlements; sourceTree = "<group>"; };
+		BE000C221FF9451F00D06B91 /* RichTexture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RichTexture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE000C251FF9451F00D06B91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE000C271FF9451F00D06B91 /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
 		BE000C291FF9451F00D06B91 /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +59,6 @@
 		BE000C301FF9451F00D06B91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE000C331FF9451F00D06B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE000C351FF9451F00D06B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE000C3B1FF94F9B00D06B91 /* Textor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Textor.entitlements; sourceTree = "<group>"; };
 		BE31644D1FF95FF00071AE58 /* DocumentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentManager.swift; sourceTree = "<group>"; };
 		BE3BE748205B046E0044356A /* UITableViewCell+Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Labels.swift"; sourceTree = "<group>"; };
 		BE5CE1122059AA2500158BE9 /* StoryboardFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardFactory.swift; sourceTree = "<group>"; };
@@ -72,8 +71,8 @@
 		BECE41032038DD45004889F0 /* UIColor+Named.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Named.swift"; sourceTree = "<group>"; };
 		BED3CAB320543936007968FF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		BED3CAB62054405A007968FF /* Think different.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Think different.txt"; sourceTree = "<group>"; };
-		BED3CABC20544197007968FF /* Textor UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Textor UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BED3CABE20544197007968FF /* Textor_UI_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textor_UI_Tests.swift; sourceTree = "<group>"; };
+		BED3CABC20544197007968FF /* RichTexture UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RichTexture UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED3CABE20544197007968FF /* RichTexture_UI_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTexture_UI_Tests.swift; sourceTree = "<group>"; };
 		BED3CAC020544197007968FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BED3CAC6205441A0007968FF /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		BED6707C201BB1B200D04AD5 /* KeyboardObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
@@ -82,7 +81,8 @@
 		BEDDAB182058811F00AC9396 /* Bundle+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Info.swift"; sourceTree = "<group>"; };
 		BEDDAB1A2058813800AC9396 /* UIDevice+Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Name.swift"; sourceTree = "<group>"; };
 		BEFE544F20697B1000FEFE93 /* FontPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontPickerViewController.swift; sourceTree = "<group>"; };
-		C306DDCD34CEE33C89B349CB /* Pods-Textor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Textor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Textor/Pods-Textor.release.xcconfig"; sourceTree = "<group>"; };
+		C6DC5CD2F636723003F4D61F /* Pods-RichTexture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichTexture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RichTexture/Pods-RichTexture.debug.xcconfig"; sourceTree = "<group>"; };
+		D87B90AE669B2E9CD7CE4B5D /* Pods-RichTexture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichTexture.release.xcconfig"; path = "Pods/Target Support Files/Pods-RichTexture/Pods-RichTexture.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A3FD70D1F2610010DF9625A /* Pods_Textor.framework in Frameworks */,
+				7094396206C46597DD6D1682 /* Pods_RichTexture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,8 +107,8 @@
 		6EC7BFC2A5E1294FF223AB50 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				42FA62BBBE3A16CF4D515238 /* Pods-Textor.debug.xcconfig */,
-				C306DDCD34CEE33C89B349CB /* Pods-Textor.release.xcconfig */,
+				C6DC5CD2F636723003F4D61F /* Pods-RichTexture.debug.xcconfig */,
+				D87B90AE669B2E9CD7CE4B5D /* Pods-RichTexture.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -116,8 +116,8 @@
 		BE000C191FF9451F00D06B91 = {
 			isa = PBXGroup;
 			children = (
-				BE000C241FF9451F00D06B91 /* Textor */,
-				BED3CABD20544197007968FF /* Textor UI Tests */,
+				BE000C241FF9451F00D06B91 /* RichTexture */,
+				BED3CABD20544197007968FF /* RichTexture UI Tests */,
 				BE000C231FF9451F00D06B91 /* Products */,
 				6EC7BFC2A5E1294FF223AB50 /* Pods */,
 				FF48B97708CE1B3F9B5381B1 /* Frameworks */,
@@ -128,27 +128,27 @@
 		BE000C231FF9451F00D06B91 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE000C221FF9451F00D06B91 /* Textor.app */,
-				BED3CABC20544197007968FF /* Textor UI Tests.xctest */,
+				BE000C221FF9451F00D06B91 /* RichTexture.app */,
+				BED3CABC20544197007968FF /* RichTexture UI Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE000C241FF9451F00D06B91 /* Textor */ = {
+		BE000C241FF9451F00D06B91 /* RichTexture */ = {
 			isa = PBXGroup;
 			children = (
 				BED3CAB52054403D007968FF /* Screenshot files */,
 				BECE41022038DCF5004889F0 /* Model */,
 				BECE41012038DCED004889F0 /* Controller */,
 				BECE41002038DCE9004889F0 /* Util */,
-				BE000C3B1FF94F9B00D06B91 /* Textor.entitlements */,
+				87C4EDBB2088C86900C872BA /* RichTexture.entitlements */,
 				BE000C251FF9451F00D06B91 /* AppDelegate.swift */,
 				BE000C2D1FF9451F00D06B91 /* Main.storyboard */,
 				BE000C301FF9451F00D06B91 /* Assets.xcassets */,
 				BE000C321FF9451F00D06B91 /* LaunchScreen.storyboard */,
 				BE000C351FF9451F00D06B91 /* Info.plist */,
 			);
-			path = Textor;
+			path = RichTexture;
 			sourceTree = "<group>";
 		};
 		BECE41002038DCE9004889F0 /* Util */ = {
@@ -200,20 +200,20 @@
 			path = "Screenshot files";
 			sourceTree = "<group>";
 		};
-		BED3CABD20544197007968FF /* Textor UI Tests */ = {
+		BED3CABD20544197007968FF /* RichTexture UI Tests */ = {
 			isa = PBXGroup;
 			children = (
 				BED3CAC6205441A0007968FF /* SnapshotHelper.swift */,
-				BED3CABE20544197007968FF /* Textor_UI_Tests.swift */,
+				BED3CABE20544197007968FF /* RichTexture_UI_Tests.swift */,
 				BED3CAC020544197007968FF /* Info.plist */,
 			);
-			path = "Textor UI Tests";
+			path = "RichTexture UI Tests";
 			sourceTree = "<group>";
 		};
 		FF48B97708CE1B3F9B5381B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0E53ED7F36F7596674975E47 /* Pods_Textor.framework */,
+				1F5089AC987CD33C8E945A30 /* Pods_RichTexture.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -221,9 +221,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE000C211FF9451F00D06B91 /* Textor */ = {
+		BE000C211FF9451F00D06B91 /* RichTexture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE000C381FF9451F00D06B91 /* Build configuration list for PBXNativeTarget "Textor" */;
+			buildConfigurationList = BE000C381FF9451F00D06B91 /* Build configuration list for PBXNativeTarget "RichTexture" */;
 			buildPhases = (
 				7AC02E7F7630FC3BE7ADEE56 /* [CP] Check Pods Manifest.lock */,
 				BE000C1E1FF9451F00D06B91 /* Sources */,
@@ -236,14 +236,14 @@
 			);
 			dependencies = (
 			);
-			name = Textor;
+			name = RichTexture;
 			productName = "Text Editor";
-			productReference = BE000C221FF9451F00D06B91 /* Textor.app */;
+			productReference = BE000C221FF9451F00D06B91 /* RichTexture.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BED3CABB20544197007968FF /* Textor UI Tests */ = {
+		BED3CABB20544197007968FF /* RichTexture UI Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BED3CAC320544197007968FF /* Build configuration list for PBXNativeTarget "Textor UI Tests" */;
+			buildConfigurationList = BED3CAC320544197007968FF /* Build configuration list for PBXNativeTarget "RichTexture UI Tests" */;
 			buildPhases = (
 				BED3CAB820544197007968FF /* Sources */,
 				BED3CAB920544197007968FF /* Frameworks */,
@@ -254,9 +254,9 @@
 			dependencies = (
 				BED3CAC220544197007968FF /* PBXTargetDependency */,
 			);
-			name = "Textor UI Tests";
-			productName = "Textor UI Tests";
-			productReference = BED3CABC20544197007968FF /* Textor UI Tests.xctest */;
+			name = "RichTexture UI Tests";
+			productName = "RichTexture UI Tests";
+			productReference = BED3CABC20544197007968FF /* RichTexture UI Tests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -285,7 +285,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BE000C1D1FF9451F00D06B91 /* Build configuration list for PBXProject "Textor" */;
+			buildConfigurationList = BE000C1D1FF9451F00D06B91 /* Build configuration list for PBXProject "RichTexture" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -298,8 +298,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE000C211FF9451F00D06B91 /* Textor */,
-				BED3CABB20544197007968FF /* Textor UI Tests */,
+				BE000C211FF9451F00D06B91 /* RichTexture */,
+				BED3CABB20544197007968FF /* RichTexture UI Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -342,7 +342,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Textor/Pods-Textor-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichTexture/Pods-RichTexture-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7AC02E7F7630FC3BE7ADEE56 /* [CP] Check Pods Manifest.lock */ = {
@@ -356,7 +356,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Textor-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RichTexture-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -369,7 +369,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Textor/Pods-Textor-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-RichTexture/Pods-RichTexture-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SimulatorStatusMagic/SimulatorStatusMagic.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -378,7 +378,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Textor/Pods-Textor-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RichTexture/Pods-RichTexture-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -412,7 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BED3CABF20544197007968FF /* Textor_UI_Tests.swift in Sources */,
+				BED3CABF20544197007968FF /* RichTexture_UI_Tests.swift in Sources */,
 				BED3CAC7205441A1007968FF /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,7 +422,7 @@
 /* Begin PBXTargetDependency section */
 		BED3CAC220544197007968FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BE000C211FF9451F00D06B91 /* Textor */;
+			target = BE000C211FF9451F00D06B91 /* RichTexture */;
 			targetProxy = BED3CAC120544197007968FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -560,17 +560,17 @@
 		};
 		BE000C391FF9451F00D06B91 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42FA62BBBE3A16CF4D515238 /* Pods-Textor.debug.xcconfig */;
+			baseConfigurationReference = C6DC5CD2F636723003F4D61F /* Pods-RichTexture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Textor/Textor.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RichTexture/RichTexture.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6G5LMQ72D8;
-				INFOPLIST_FILE = "$(SRCROOT)/Textor/Info.plist";
+				DEVELOPMENT_TEAM = 8CT5XRS423;
+				INFOPLIST_FILE = "$(SRCROOT)/RichTexture/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.silverfox.plaintextedit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.richtextedit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -581,17 +581,17 @@
 		};
 		BE000C3A1FF9451F00D06B91 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C306DDCD34CEE33C89B349CB /* Pods-Textor.release.xcconfig */;
+			baseConfigurationReference = D87B90AE669B2E9CD7CE4B5D /* Pods-RichTexture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Textor/Textor.entitlements;
+				CODE_SIGN_ENTITLEMENTS = RichTexture/RichTexture.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6G5LMQ72D8;
-				INFOPLIST_FILE = "$(SRCROOT)/Textor/Info.plist";
+				DEVELOPMENT_TEAM = 8CT5XRS423;
+				INFOPLIST_FILE = "$(SRCROOT)/RichTexture/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.silverfox.plaintextedit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.richtextedit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -604,14 +604,14 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6G5LMQ72D8;
-				INFOPLIST_FILE = "Textor UI Tests/Info.plist";
+				INFOPLIST_FILE = "RichTexture UI Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "be.silverfox.Textor-UI-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.handlellc.RichTexture-UI-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Textor;
+				TEST_TARGET_NAME = RichTexture;
 			};
 			name = Debug;
 		};
@@ -620,21 +620,21 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6G5LMQ72D8;
-				INFOPLIST_FILE = "Textor UI Tests/Info.plist";
+				INFOPLIST_FILE = "RichTexture UI Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "be.silverfox.Textor-UI-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.handlellc.RichTexture-UI-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Textor;
+				TEST_TARGET_NAME = RichTexture;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE000C1D1FF9451F00D06B91 /* Build configuration list for PBXProject "Textor" */ = {
+		BE000C1D1FF9451F00D06B91 /* Build configuration list for PBXProject "RichTexture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE000C361FF9451F00D06B91 /* Debug */,
@@ -643,7 +643,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE000C381FF9451F00D06B91 /* Build configuration list for PBXNativeTarget "Textor" */ = {
+		BE000C381FF9451F00D06B91 /* Build configuration list for PBXNativeTarget "RichTexture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE000C391FF9451F00D06B91 /* Debug */,
@@ -652,7 +652,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BED3CAC320544197007968FF /* Build configuration list for PBXNativeTarget "Textor UI Tests" */ = {
+		BED3CAC320544197007968FF /* Build configuration list for PBXNativeTarget "RichTexture UI Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BED3CAC420544197007968FF /* Debug */,

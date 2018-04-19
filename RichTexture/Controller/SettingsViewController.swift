@@ -136,11 +136,11 @@ class SettingsViewController: UITableViewController {
 
 				if year == startYear {
 
-					copyrightText = "© \(startYear) Silver Fox. Textor v\(version) (build \(build))"
+					copyrightText = "© \(startYear) Handle LLC. RichTexture v\(version) (build \(build))"
 
 				} else {
 
-					copyrightText = "© \(startYear)-\(year) Silver Fox. Textor v\(version) (build \(build))"
+					copyrightText = "© \(startYear)-\(year) Handle LLC. RichTexture v\(version) (build \(build))"
 
 				}
 
@@ -163,14 +163,14 @@ class SettingsViewController: UITableViewController {
 			switch indexPath.row {
 			case 0:
 				// Review on App Store
-				let appId = "1330406995"
+				let appId = "1330406995" //TODO
 				url = "itms-apps://itunes.apple.com/us/app/textor/id\(appId)?action=write-review"
 			case 1:
 				// GitHub
-				url = "https://github.com/louisdh/textor"
+				url = "https://github.com/stevemoser/richtexture"
 			case 2:
 				// Twitter
-				url = "https://twitter.com/LouisDhauwe"
+				url = "https://twitter.com/SteveMoser"
 			case 3:
 				// Contact Us
 				url = nil
@@ -207,12 +207,12 @@ class SettingsViewController: UITableViewController {
 		let mailComposerVC = MFMailComposeViewController()
 		mailComposerVC.mailComposeDelegate = self
 
-		mailComposerVC.setToRecipients(["support@silverfox.be"])
+		mailComposerVC.setToRecipients(["support@handlellc.com"])
 
 		let version = Bundle.main.version
 		let build = Bundle.main.build
 
-		mailComposerVC.setSubject("Textor \(version)")
+		mailComposerVC.setSubject("RichTexture \(version)")
 
 		let deviceModel = UIDevice.current.modelName
 		let systemName = UIDevice.current.systemName
@@ -222,7 +222,7 @@ class SettingsViewController: UITableViewController {
 
 
 		----------
-		App: Textor \(version) (build \(build))
+		App: RichTexture \(version) (build \(build))
 		Device: \(deviceModel) (\(systemName) \(systemVersion))
 
 		"""

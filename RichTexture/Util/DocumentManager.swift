@@ -46,7 +46,7 @@ class DocumentManager {
 
 	}
 
-	private let ICLOUD_IDENTIFIER = "iCloud.com.silverfox.plaintextedit"
+	private let ICLOUD_IDENTIFIER = "iCloud.com.handlellc.plaintextedit"
 
 	private var localDocumentsURL: URL {
 		return fileManager.urls(for: .documentDirectory, in: .userDomainMask)[0]

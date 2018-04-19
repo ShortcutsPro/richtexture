@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_TextorVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_TextorVersionString[];
+FOUNDATION_EXPORT double Pods_RichTextureVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_RichTextureVersionString[];
 

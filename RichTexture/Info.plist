@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Textor</string>
+	<string>RichTexture</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -34,21 +34,21 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.2</string>
+	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>8</string>
+	<string>1000</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSUbiquitousContainers</key>
 	<dict>
-		<key>iCloud.com.silverfox.plaintextedit</key>
+		<key>iCloud.com.handlellc.plaintextedit</key>
 		<dict>
 			<key>NSUbiquitousContainerIsDocumentScopePublic</key>
 			<true/>
 			<key>NSUbiquitousContainerName</key>
-			<string>Textor</string>
+			<string>RichTexture</string>
 			<key>NSUbiquitousContainerSupportedFolderLevels</key>
 			<string>0</string>
 		</dict>
