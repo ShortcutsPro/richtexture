@@ -5,7 +5,7 @@
 <h1 align="center">RichTexture</h1>
 
 <p align="center">
-<a href="https://itunes.apple.com/app/textor/id1330406995?mt=8&at=1010lII4"><img src="readme-resources/app_store_badge.svg" alt="Download on the App Store"/></a>
+<a href="https://itunes.apple.com/us/app/richtexture/id1376116077"><img src="readme-resources/app_store_badge.svg" alt="Download on the App Store"/></a>
 </p>
 
 <p align="center">

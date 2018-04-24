@@ -25,5 +25,4 @@ DerivedData
 fastlane/metadata/
 fastlane/screenshots/
 
-fastlane/Deliverfile
 fastlane/report.xml

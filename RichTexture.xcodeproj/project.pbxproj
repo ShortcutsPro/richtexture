@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7094396206C46597DD6D1682 /* Pods_RichTexture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5089AC987CD33C8E945A30 /* Pods_RichTexture.framework */; };
+		874773B2208E322200772A0A /* Test Document.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 874773B1208E322200772A0A /* Test Document.rtf */; };
+		874773B4208E386D00772A0A /* Fonts.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 874773B3208E386D00772A0A /* Fonts.rtf */; };
 		BE000C261FF9451F00D06B91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE000C251FF9451F00D06B91 /* AppDelegate.swift */; };
 		BE000C281FF9451F00D06B91 /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE000C271FF9451F00D06B91 /* DocumentBrowserViewController.swift */; };
 		BE000C2A1FF9451F00D06B91 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE000C291FF9451F00D06B91 /* DocumentViewController.swift */; };
@@ -19,14 +21,10 @@
 		BE3BE749205B046E0044356A /* UITableViewCell+Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3BE748205B046E0044356A /* UITableViewCell+Labels.swift */; };
 		BE5CE1132059AA2500158BE9 /* StoryboardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5CE1122059AA2500158BE9 /* StoryboardFactory.swift */; };
 		BE5CE1152059AB5E00158BE9 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5CE1142059AB5E00158BE9 /* Theme.swift */; };
-		BEC104DF2054481F009F56E7 /* Planets.txt in Resources */ = {isa = PBXBuildFile; fileRef = BEC104DE2054481F009F56E7 /* Planets.txt */; };
-		BEC104E320546728009F56E7 /* Circle.svg in Resources */ = {isa = PBXBuildFile; fileRef = BEC104E220546728009F56E7 /* Circle.svg */; };
-		BEC104E520546730009F56E7 /* Pharaoh.txt in Resources */ = {isa = PBXBuildFile; fileRef = BEC104E420546730009F56E7 /* Pharaoh.txt */; };
-		BEC104E720546899009F56E7 /* Mouse.txt in Resources */ = {isa = PBXBuildFile; fileRef = BEC104E620546899009F56E7 /* Mouse.txt */; };
 		BECE40FA2038DB67004889F0 /* UIViewController+Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECE40F92038DB67004889F0 /* UIViewController+Alerts.swift */; };
 		BECE41042038DD45004889F0 /* UIColor+Named.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECE41032038DD45004889F0 /* UIColor+Named.swift */; };
 		BED3CAB420543936007968FF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED3CAB320543936007968FF /* SettingsViewController.swift */; };
-		BED3CAB72054405A007968FF /* Think different.txt in Resources */ = {isa = PBXBuildFile; fileRef = BED3CAB62054405A007968FF /* Think different.txt */; };
+		BED3CAB72054405A007968FF /* Think different.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BED3CAB62054405A007968FF /* Think different.rtf */; };
 		BED3CABF20544197007968FF /* RichTexture_UI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED3CABE20544197007968FF /* RichTexture_UI_Tests.swift */; };
 		BED3CAC7205441A1007968FF /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED3CAC6205441A0007968FF /* SnapshotHelper.swift */; };
 		BED6707D201BB1B200D04AD5 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED6707C201BB1B200D04AD5 /* KeyboardObserver.swift */; };
@@ -49,6 +47,8 @@
 
 /* Begin PBXFileReference section */
 		1F5089AC987CD33C8E945A30 /* Pods_RichTexture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RichTexture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		874773B1208E322200772A0A /* Test Document.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Test Document.rtf"; sourceTree = "<group>"; };
+		874773B3208E386D00772A0A /* Fonts.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Fonts.rtf; sourceTree = "<group>"; };
 		87C4EDBB2088C86900C872BA /* RichTexture.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RichTexture.entitlements; sourceTree = "<group>"; };
 		BE000C221FF9451F00D06B91 /* RichTexture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RichTexture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE000C251FF9451F00D06B91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,14 +63,10 @@
 		BE3BE748205B046E0044356A /* UITableViewCell+Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Labels.swift"; sourceTree = "<group>"; };
 		BE5CE1122059AA2500158BE9 /* StoryboardFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardFactory.swift; sourceTree = "<group>"; };
 		BE5CE1142059AB5E00158BE9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		BEC104DE2054481F009F56E7 /* Planets.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Planets.txt; sourceTree = "<group>"; };
-		BEC104E220546728009F56E7 /* Circle.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Circle.svg; sourceTree = "<group>"; };
-		BEC104E420546730009F56E7 /* Pharaoh.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pharaoh.txt; sourceTree = "<group>"; };
-		BEC104E620546899009F56E7 /* Mouse.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mouse.txt; sourceTree = "<group>"; };
 		BECE40F92038DB67004889F0 /* UIViewController+Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alerts.swift"; sourceTree = "<group>"; };
 		BECE41032038DD45004889F0 /* UIColor+Named.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Named.swift"; sourceTree = "<group>"; };
 		BED3CAB320543936007968FF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		BED3CAB62054405A007968FF /* Think different.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Think different.txt"; sourceTree = "<group>"; };
+		BED3CAB62054405A007968FF /* Think different.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Think different.rtf"; sourceTree = "<group>"; };
 		BED3CABC20544197007968FF /* RichTexture UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RichTexture UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED3CABE20544197007968FF /* RichTexture_UI_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTexture_UI_Tests.swift; sourceTree = "<group>"; };
 		BED3CAC020544197007968FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -191,11 +187,9 @@
 		BED3CAB52054403D007968FF /* Screenshot files */ = {
 			isa = PBXGroup;
 			children = (
-				BED3CAB62054405A007968FF /* Think different.txt */,
-				BEC104DE2054481F009F56E7 /* Planets.txt */,
-				BEC104E220546728009F56E7 /* Circle.svg */,
-				BEC104E420546730009F56E7 /* Pharaoh.txt */,
-				BEC104E620546899009F56E7 /* Mouse.txt */,
+				BED3CAB62054405A007968FF /* Think different.rtf */,
+				874773B3208E386D00772A0A /* Fonts.rtf */,
+				874773B1208E322200772A0A /* Test Document.rtf */,
 			);
 			path = "Screenshot files";
 			sourceTree = "<group>";
@@ -309,13 +303,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC104E720546899009F56E7 /* Mouse.txt in Resources */,
+				874773B2208E322200772A0A /* Test Document.rtf in Resources */,
 				BE000C341FF9451F00D06B91 /* LaunchScreen.storyboard in Resources */,
-				BEC104DF2054481F009F56E7 /* Planets.txt in Resources */,
-				BEC104E320546728009F56E7 /* Circle.svg in Resources */,
-				BED3CAB72054405A007968FF /* Think different.txt in Resources */,
+				874773B4208E386D00772A0A /* Fonts.rtf in Resources */,
+				BED3CAB72054405A007968FF /* Think different.rtf in Resources */,
 				BE000C311FF9451F00D06B91 /* Assets.xcassets in Resources */,
-				BEC104E520546730009F56E7 /* Pharaoh.txt in Resources */,
 				BE000C2F1FF9451F00D06B91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -50,21 +50,11 @@ class DocumentBrowserViewController: UIDocumentBrowserViewController {
 
 		if UserDefaultsController.shared.isFastlane {
 
-			var snapshotDocuments = ["Think different.txt", "Planets.txt", "Circle.svg"]
+			var snapshotDocuments = ["Think different.rtf", "Fonts.rtf", "Test Document.rtf"]
 
-			if snapshotDocumentIndex == 2 {
-				UserDefaultsController.shared.isDarkMode = true
-			} else {
-				UserDefaultsController.shared.isDarkMode = false
-			}
+			UserDefaultsController.shared.isDarkMode = false
 
 			NotificationCenter.default.post(name: .themeChanged, object: nil)
-
-			if self.view.bounds.width > 600 {
-				snapshotDocuments.append("Pharaoh.txt")
-			} else {
-				snapshotDocuments.append("Mouse.txt")
-			}
 
 			let url = Bundle.main.url(forResource: snapshotDocuments[snapshotDocumentIndex], withExtension: nil)!
 
@@ -122,7 +112,7 @@ extension DocumentBrowserViewController: UIDocumentBrowserViewControllerDelegate
 		}
 		
 		let doc = Document(fileURL: url)
-		doc.text = ""
+		doc.text = NSAttributedString.init(string: "")
 		
 		doc.save(to: url, for: .forCreating) { (_) in
 			

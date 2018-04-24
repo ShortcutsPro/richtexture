@@ -1,0 +1,8 @@
+app_identifier("com.handlellc.richtextedit") # The bundle identifier of your app
+apple_id("steve@handlellc.com") # Your Apple email address
+
+itc_team_id("1322932") # iTunes Connect Team ID
+team_id("8CT5XRS423") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

@@ -11,17 +11,8 @@ import MessageUI
 
 class SettingsViewController: UITableViewController {
 
-    @IBOutlet weak var fontSizeStepper: UIStepper!
-    @IBOutlet weak var fontSizeLabel: UILabel!
-    @IBOutlet weak var darkThemeSwitch: UISwitch!
-
     override func viewDidLoad() {
 		super.viewDidLoad()
-		
-		fontSizeStepper.value = Double(UserDefaultsController.shared.fontSize)
-        fontSizeLabel.text = "\(Int(fontSizeStepper.value))"
-
-        darkThemeSwitch.isOn = UserDefaultsController.shared.isDarkMode
 		
 		NotificationCenter.default.addObserver(self, selector: #selector(didChangeTheme), name: .themeChanged, object: nil)
 		
@@ -41,16 +32,6 @@ class SettingsViewController: UITableViewController {
 		self.dismiss(animated: true, completion: nil)
 
 	}
-
-    @IBAction func fontSizeChanged(_ sender: UIStepper) {
-		UserDefaultsController.shared.fontSize = CGFloat(sender.value)
-        fontSizeLabel.text = "\(Int(sender.value))"
-    }
-
-    @IBAction func themeChanged(_ sender: UISwitch) {
-		UserDefaultsController.shared.isDarkMode = sender.isOn
-        NotificationCenter.default.post(name: .themeChanged, object: nil)
-    }
 
 	@objc
 	func didChangeTheme() {

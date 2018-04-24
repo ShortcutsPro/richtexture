@@ -28,10 +28,10 @@ class DocumentManager {
 
 	let fileManager: FileManager
 
-	// All created documents are .txt
+	// All created documents are .rtf
 	// (might change in future)
 	private var fileExtension: String {
-		return "txt"
+		return "rtf"
 	}
 
 	private init(fileManager: FileManager) {

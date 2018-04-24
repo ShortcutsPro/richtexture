@@ -24,6 +24,7 @@ class DocumentViewController: UIViewController {
 		super.viewDidLoad()
 		
 		textView.delegate = self
+		textView.allowsEditingTextAttributes = true;
 		
 		self.navigationController?.view.tintColor = .appTintColor
 		self.view.tintColor = .appTintColor
@@ -53,7 +54,7 @@ class DocumentViewController: UIViewController {
 			
 		}
 		
-		textView.text = ""
+		textView.attributedText = NSAttributedString.init(string: "")
 		
 		document?.open(completionHandler: { [weak self] (success) in
 			
@@ -63,10 +64,10 @@ class DocumentViewController: UIViewController {
 			
 			if success {
 				
-				self.textView.text = self.document?.text
+				self.textView.attributedText = self.document?.text
 				
 				// Calculate layout for full document, so scrolling is smooth.
-				self.textView.layoutManager.ensureLayout(forCharacterRange: NSRange(location: 0, length: self.textView.text.count))
+				self.textView.layoutManager.ensureLayout(forCharacterRange: NSRange(location: 0, length: self.textView.attributedText.length))
 				
 				if self.textView.text.isEmpty {
 					self.textView.becomeFirstResponder()
@@ -85,24 +86,6 @@ class DocumentViewController: UIViewController {
 	}
 	
 	private func updateTheme() {
-		
-		let font = UserDefaultsController.shared.font
-		let fontSize = UserDefaultsController.shared.fontSize
-		textView.font = UIFont(name: font, size: fontSize)
-		
-		if UserDefaultsController.shared.isDarkMode {
-			textView.textColor = .white
-			textView.backgroundColor = .darkBackgroundColor
-			textView.keyboardAppearance = .dark
-			textView.indicatorStyle = .white
-			navigationController?.navigationBar.barStyle = .blackTranslucent
-		} else {
-			textView.textColor = .black
-			textView.backgroundColor = .white
-			textView.keyboardAppearance = .default
-		}
-		
-		self.view.backgroundColor = textView.backgroundColor
 		
 	}
 	
@@ -151,11 +134,11 @@ class DocumentViewController: UIViewController {
 
     @IBAction func dismissDocumentViewController() {
 
-		let currentText = self.document?.text ?? ""
+		let currentText = self.document?.text ?? NSAttributedString.init(string: "")
 
-		self.document?.text = self.textView.text
+		self.document?.text = self.textView.attributedText
 
-		if currentText != self.textView.text {
+		if currentText != self.textView.attributedText {
 			self.document?.updateChangeCount(.done)
 		}
 
@@ -170,11 +153,11 @@ extension DocumentViewController: UITextViewDelegate {
 	
 	func textViewDidEndEditing(_ textView: UITextView) {
 		
-		let currentText = self.document?.text ?? ""
+		let currentText = self.document?.text ?? NSAttributedString.init(string: "")
 		
-		self.document?.text = self.textView.text
+		self.document?.text = self.textView.attributedText
 		
-		if currentText != self.textView.text {
+		if currentText != self.textView.attributedText {
 			self.document?.updateChangeCount(.done)
 		}
 
