@@ -7,6 +7,6 @@ use_frameworks!
 inhibit_all_warnings!
 
 target 'RichTexture' do
-	pod 'SimulatorStatusMagic', '~> 1.9', :configurations => ['Debug']
+	pod 'SimulatorStatusMagic', '~> 2.1', :configurations => ['Debug']
 
 end
