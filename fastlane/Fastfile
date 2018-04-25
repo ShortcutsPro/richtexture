@@ -18,7 +18,13 @@ default_platform(:ios)
 platform :ios do
   desc "Push a new release build to the App Store"
   lane :release do
-    build_app(workspace: "RichTexture.xcworkspace", scheme: "RichTexture", include_bitcode: true)
+    build_app(
+      workspace: "RichTexture.xcworkspace",
+      scheme: "RichTexture",
+      include_bitcode: true,
+      #automatic_release: false, 
+      #phased_release: false
+      )
     upload_to_app_store
   end
   lane :icons do

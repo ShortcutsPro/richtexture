@@ -22,7 +22,8 @@ DerivedData
 *.ipa
 *.zip
 
+Preview.html
+
 fastlane/metadata/
 fastlane/screenshots/
-
 fastlane/report.xml
